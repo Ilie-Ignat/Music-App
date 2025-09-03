@@ -1,0 +1,98 @@
+.artists-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artists-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.artists-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.artists-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.artists-form button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.artists-form button:hover {
+  background-color: #45a049;
+}
+
+.artists-list {
+  list-style: none;
+  padding: 0;
+}
+
+.artist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.artist-info {
+  flex-grow: 1;
+}
+
+.artist-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn,
+.update-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.delete-btn {
+  background-color: #f72011;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c9170b;
+}
+
+.update-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #0b7dda;
+}

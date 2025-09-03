@@ -1,0 +1,42 @@
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home h1 {
+  text-align: center;
+}
+
+.home nav {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.home nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 100px;
+}
+
+.home nav ul li a {
+  text-decoration: none;
+  background: linear-gradient(
+    135deg,
+    rgba(75, 207, 82, 0.7) 0%,
+    rgba(79, 177, 84, 0.7) 100%
+  );
+  color: white;
+  padding: 24px 48px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.home nav ul li a:hover {
+  background-color: rgb(50, 122, 53);
+}
